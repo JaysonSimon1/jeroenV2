@@ -18,6 +18,12 @@ client.on("messageCreate", (message) => {
         message.reply("pong")
     }
 })
+
+client.on("messageCreate", (message) => {
+    if (message.content == "stef"){
+        message.reply("poepje")
+    }
+})
 //poepje
 client.on("messageCreate", (message) => {
     if (message.content == "naam"){
