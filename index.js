@@ -21,7 +21,7 @@ client.on("messageCreate", (message) => {
 
 client.on("messageCreate", (message) => {
     if (message.content == "naam"){
-        message.reply(`${client.user.tag}`)
+        message.reply(`${client.user}`)
     }
 })
 
