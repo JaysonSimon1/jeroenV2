@@ -19,4 +19,10 @@ client.on("messageCreate", (message) => {
     }
 })
 
+client.on("messageCreate", (message) => {
+    if (message.content == "aids jong"){
+        message.reply("pong")
+    }
+})
+
 client.login(TOKEN)
