@@ -18,7 +18,6 @@ client.on("messageCreate", (message) => {
         message.reply("pong")
     }
 })
-//poepje
 client.on("messageCreate", (message) => {
     if (message.content == "naam"){
         message.reply(`${client.user}`)
