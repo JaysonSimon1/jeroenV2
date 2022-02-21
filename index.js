@@ -1,5 +1,5 @@
 const Discord = require("discord.js")
-
+const Prefix = "$"
 const TOKEN = "OTQ0MjU4OTAxMzQyMjk0MTA2.Yg-_oQ.bD3OFsZhlqR7jXiaQozMIWe-fzo"
 
 const client = new Discord.Client({
@@ -20,8 +20,8 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
-    if (message.content == "aids jong"){
-        message.reply("pong")
+    if (message.content == "naam"){
+        message.reply(`${client.user.tag}`)
     }
 })
 
